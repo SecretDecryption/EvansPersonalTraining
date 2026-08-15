@@ -2,12 +2,16 @@
 
 A Vercel-ready personal training website built with Next.js.
 
-## Deploy on Vercel
+## Fastest deployment: Vercel Drop
 
-1. Unzip this folder.
-2. Add the folder to a GitHub repository, or deploy it with the Vercel CLI.
-3. Import the repository in Vercel. It will automatically detect Next.js.
-4. Keep the default build settings and deploy.
+1. Go to https://vercel.com/drop.
+2. Drag the ZIP file onto the page.
+3. Confirm that Vercel shows **Next.js** as the detected framework.
+4. Select Deploy, then open the exact production URL Vercel provides.
+
+If you use GitHub instead, unzip the package and place its contents at the
+repository root. `package.json`, `vercel.json`, and the `app` folder must be at
+the top level. Import that repository in Vercel and leave Root Directory empty.
 
 The resulting Vercel site is public and does not require a ChatGPT login.
 
