@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     title: "Evan / Motion Method",
     description: "Personal training in Toronto. Strong looks different on everyone.",
     type: "website",
-    images: [{ url: "/og.png", width: 1672, height: 941, alt: "Evan / Motion Method personal training" }],
+    images: [{ url: "/motion-method-training.png", alt: "Evan / Motion Method personal training" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Evan / Motion Method",
     description: "Personal training in Toronto. Strong looks different on everyone.",
-    images: ["/og.png"],
+    images: ["/motion-method-training.png"],
   },
 };
 
