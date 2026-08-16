@@ -188,8 +188,8 @@ export default function Home() {
               <a href="mailto:ebaileysmm@gmail.com">ebaileysmm@gmail.com</a>
               <a href="tel:+15198021683">519-802-1683</a>
               <div className="social-links">
-                <a href="https://www.instagram.com/e_bail/" target="_blank" rel="noreferrer">Instagram · @e_bail ↗</a>
-                <a href="https://www.tiktok.com/@e.bail" target="_blank" rel="noreferrer">TikTok · @e.bail ↗</a>
+                <a href="https://www.instagram.com/e.bail/" target="_blank" rel="noreferrer">Instagram · @e.bail ↗</a>
+                <a href="https://www.tiktok.com/@e_bail" target="_blank" rel="noreferrer">TikTok · @e_bail ↗</a>
               </div>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand"><img src="/motion-method-logo.png" alt="Motion Method" /></div>
-        <div className="footer-links"><a href="#programs">Coaching</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#consultation">Contact</a><a href="https://www.instagram.com/e_bail/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.tiktok.com/@e.bail" target="_blank" rel="noreferrer">TikTok ↗</a></div>
+        <div className="footer-links"><a href="#programs">Coaching</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#consultation">Contact</a><a href="https://www.instagram.com/e.bail/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.tiktok.com/@e_bail" target="_blank" rel="noreferrer">TikTok ↗</a></div>
         <p>Evan Bailey — Strength &amp; Body Recomposition Coach.</p>
         <small>© 2026 Motion Method. In-person coaching at Fit Effect.</small>
       </footer>
