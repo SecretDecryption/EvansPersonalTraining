@@ -17,18 +17,18 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Evan at Motion Method | Personal Training in Toronto",
-  description: "Personal coaching with Evan, built around your body, schedule, and goals. Build strength that lasts with Motion Method.",
+  title: "Evan Bailey | Strength & Body Recomposition Coach | Motion Method",
+  description: "Strength and body recomposition coaching with CanFitPro-certified personal training specialist Evan Bailey at Fit Effect.",
   openGraph: {
-    title: "Evan / Motion Method",
-    description: "Personal training in Toronto. Strong looks different on everyone.",
+    title: "Evan Bailey / Motion Method",
+    description: "Strength and body recomposition coaching at Fit Effect.",
     type: "website",
-    images: [{ url: "/motion-method-training.png", alt: "Evan / Motion Method personal training" }],
+    images: [{ url: "/motion-method-training.png", alt: "Evan Bailey / Motion Method personal training" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Evan / Motion Method",
-    description: "Personal training in Toronto. Strong looks different on everyone.",
+    title: "Evan Bailey / Motion Method",
+    description: "Strength and body recomposition coaching at Fit Effect.",
     images: ["/motion-method-training.png"],
   },
 };

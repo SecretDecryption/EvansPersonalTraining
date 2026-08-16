@@ -18,11 +18,11 @@ export default function Home() {
       <main>
         <section className="hero" id="top">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Personal coaching with Evan · Toronto</p>
+            <p className="eyebrow"><span /> Strength &amp; body recomposition · Fit Effect</p>
             <h1>Strong looks<br />different on<br /><em>everyone.</em></h1>
             <p className="hero-intro">
-              Personal training built around your body, your schedule, and the life
-              you actually live. No extremes. Just a clear plan and Evan in your corner.
+              Coaching with Evan Bailey, built around your body, your schedule, and
+              the life you actually live. No extremes. Just a clear plan and consistent progress.
             </p>
             <div className="hero-actions">
               <a className="button button-dark" href="#consultation">Start with a free consult <span>↗</span></a>
@@ -137,17 +137,18 @@ export default function Home() {
         <section className="coach-section" id="about">
           <div className="coach-shape" aria-hidden="true"><span>E</span></div>
           <div className="coach-copy">
-            <div className="section-number light">/ 04 — MEET EVAN</div>
-            <p className="kicker acid">Supportive. Direct. Fully in your corner.</p>
+            <div className="section-number light">/ 04 — EVAN BAILEY</div>
+            <p className="kicker acid">Strength and body recomposition coach.</p>
             <h2>Hey, I’m Evan.<br /><em>Let’s get moving.</em></h2>
             <p className="coach-lead">
-              You don’t need to be “fit enough” to start. My job is to make training feel
-              clear, useful, and built for you—from your first rep to your next big goal.
+              You don’t need to be “fit enough” to start. I help people build strength,
+              reshape their body, and train with a plan that fits real life—from the first rep onward.
             </p>
             <div className="coach-facts">
-              <div><strong>In-person</strong><span>Toronto-area coaching</span></div>
-              <div><strong>Remote</strong><span>Online support anywhere</span></div>
-              <div><strong>Your pace</strong><span>Progress without pressure</span></div>
+              <div><strong>Certified</strong><span>CanFitPro Personal Training Specialist</span></div>
+              <div><strong>In progress</strong><span>Precision Nutrition — nutrition &amp; supplement coaching</span></div>
+              <div><strong>In person</strong><span>Training at Fit Effect</span></div>
+              <div><strong>Availability</strong><span>Weekday mornings before 12 &amp; full weekends</span></div>
             </div>
           </div>
         </section>
@@ -164,7 +165,7 @@ export default function Home() {
             </details>
             <details>
               <summary>Where does in-person training happen?<span>+</span></summary>
-              <p>Sessions are currently available at a Toronto-area Anytime Fitness location. Evan’s coaching business is independently operated and is not endorsed by or affiliated with Anytime Fitness corporate.</p>
+              <p>In-person sessions are available at Fit Effect. Evan will confirm the exact location and session details during your consultation.</p>
             </details>
             <details>
               <summary>How much does coaching cost?<span>+</span></summary>
@@ -183,8 +184,16 @@ export default function Home() {
             <p className="kicker acid">Your first step is a conversation.</p>
             <h2>Let’s make<br /><em>a plan.</em></h2>
             <p>Tell Evan where you’re at and where you want to go. He’ll reply personally with a simple next step.</p>
+            <div className="contact-details">
+              <a href="mailto:ebaileysmm@gmail.com">ebaileysmm@gmail.com</a>
+              <a href="tel:+15198021683">519-802-1683</a>
+              <div className="social-links">
+                <a href="https://www.instagram.com/e_bail/" target="_blank" rel="noreferrer">Instagram · @e_bail ↗</a>
+                <a href="https://www.tiktok.com/@e.bail" target="_blank" rel="noreferrer">TikTok · @e.bail ↗</a>
+              </div>
+            </div>
           </div>
-          <form className="consult-form" action="mailto:evan@motionmethod.fit" method="post" encType="text/plain">
+          <form className="consult-form" action="mailto:ebaileysmm@gmail.com" method="post" encType="text/plain">
             <label>
               <span>Your name</span>
               <input type="text" name="name" placeholder="First and last name" required />
@@ -205,9 +214,9 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand"><img src="/motion-method-logo.png" alt="Motion Method" /></div>
-        <div className="footer-links"><a href="#programs">Coaching</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#consultation">Contact</a></div>
-        <p>Independent personal training in Toronto &amp; online.</p>
-        <small>© 2026 Evan / Motion Method. Independently operated and not affiliated with Anytime Fitness corporate.</small>
+        <div className="footer-links"><a href="#programs">Coaching</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#consultation">Contact</a><a href="https://www.instagram.com/e_bail/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.tiktok.com/@e.bail" target="_blank" rel="noreferrer">TikTok ↗</a></div>
+        <p>Evan Bailey — Strength &amp; Body Recomposition Coach.</p>
+        <small>© 2026 Motion Method. In-person coaching at Fit Effect.</small>
       </footer>
     </>
   );
