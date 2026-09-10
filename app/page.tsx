@@ -9,6 +9,7 @@ export default function Home() {
           <div className="nav-links">
             <a href="#programs">Coaching</a>
             <a href="#approach">Approach</a>
+            <a href="#results">Results</a>
             <a href="#about">About</a>
           </div>
           <a className="nav-cta" href="#consultation">Book a free consult <span>↗</span></a>
@@ -134,10 +135,74 @@ export default function Home() {
           </ol>
         </section>
 
+        <section className="results" id="results">
+          <div className="section-shell results-head">
+            <div className="section-number light">/ 04 — CLIENT RESULTS</div>
+            <div>
+              <p className="kicker acid">Progress you can feel.</p>
+              <h2>Stronger,<br /><em>inside &amp; out.</em></h2>
+            </div>
+            <p>
+              Strength is more than the number on the bar. It is confidence, consistency,
+              and knowing you can do hard things.
+            </p>
+          </div>
+
+          <div className="section-shell results-grid">
+            <div className="results-media" aria-label="Motion Method training highlights">
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/client-strength-squat-poster.jpg" aria-label="Client completing a coached barbell squat">
+                  <source src="/client-strength-squat.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>01</span> Strength</figcaption>
+              </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/evan-coaching-cable-poster.jpg" aria-label="Evan coaching a client through a cable exercise">
+                  <source src="/evan-coaching-cable.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>02</span> Coaching</figcaption>
+              </figure>
+              <figure className="result-media">
+                <img src="/client-progress.jpg" alt="A Motion Method client smiling beside a squat rack after training" />
+                <figcaption><span>03</span> Confidence</figcaption>
+              </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/client-dumbbell-hinge-poster.jpg" aria-label="Client completing a dumbbell strength exercise">
+                  <source src="/client-dumbbell-hinge.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>04</span> Progress</figcaption>
+              </figure>
+            </div>
+
+            <div className="quote-stack">
+              <article className="testimonial-card">
+                <span className="quote-mark" aria-hidden="true">“</span>
+                <blockquote>
+                  I’ve trained with Evan consistently for just under a year. His knowledge
+                  and constant drive to learn show how much he cares. He answers every question,
+                  pushes me past my limits, and always shows up. His coaching has transformed
+                  both my physical strength and mental well-being.
+                </blockquote>
+                <p className="quote-author"><strong>Milly</strong><span>Motion Method client</span></p>
+              </article>
+              <article className="testimonial-card testimonial-card-dark">
+                <span className="quote-mark" aria-hidden="true">“</span>
+                <blockquote>
+                  Working with Evan has been one of the best decisions I’ve made. He taught me
+                  how to train properly and gave me the confidence to push past my limits. His
+                  knowledge, encouragement, and accountability have made me stronger, more
+                  confident, and more motivated.
+                </blockquote>
+                <p className="quote-author"><strong>Lee</strong><span>Motion Method client</span></p>
+              </article>
+            </div>
+          </div>
+        </section>
+
         <section className="coach-section" id="about">
           <div className="coach-shape" aria-hidden="true"><span>E</span></div>
           <div className="coach-copy">
-            <div className="section-number light">/ 04 — EVAN BAILEY</div>
+            <div className="section-number light">/ 05 — EVAN BAILEY</div>
             <p className="kicker acid">Strength and body recomposition coach.</p>
             <h2>Hey, I’m Evan.<br /><em>Let’s get moving.</em></h2>
             <p className="coach-lead">
@@ -155,7 +220,7 @@ export default function Home() {
 
         <section className="faq section-shell">
           <div>
-            <div className="section-number">/ 05 — GOOD TO KNOW</div>
+            <div className="section-number">/ 06 — GOOD TO KNOW</div>
             <h2>Questions,<br /><em>answered.</em></h2>
           </div>
           <div className="faq-list">
