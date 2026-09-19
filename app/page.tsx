@@ -190,6 +190,12 @@ export default function Home() {
                 </video>
                 <figcaption><span>07</span> Strength</figcaption>
               </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/evan-dumbbell-curl-poster.jpg" aria-label="Evan demonstrating a seated dumbbell curl">
+                  <source src="/evan-dumbbell-curl.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>08</span> Evan / Form</figcaption>
+              </figure>
             </div>
 
             <div className="quote-stack">
@@ -218,7 +224,9 @@ export default function Home() {
         </section>
 
         <section className="coach-section" id="about">
-          <div className="coach-shape" aria-hidden="true"><span>E</span></div>
+          <div className="coach-shape">
+            <img src="/evan-trainer-portrait.jpg" alt="Evan Bailey in the gym" />
+          </div>
           <div className="coach-copy">
             <div className="section-number light">/ 05 — EVAN BAILEY</div>
             <p className="kicker acid">Strength and body recomposition coach.</p>
