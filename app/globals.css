@@ -163,6 +163,20 @@ h2 { margin: 0; font-size: clamp(58px, 6.5vw, 110px); line-height: .87; letter-s
 .coach-facts strong { margin-bottom: 8px; font-size: 14px; }
 .coach-facts span { font-size: 11px; line-height: 1.4; }
 
+.evan-gallery { padding-top: 135px; padding-bottom: 135px; }
+.evan-gallery-head { display: grid; grid-template-columns: .65fr 1.35fr; gap: 6vw; align-items: end; margin-bottom: 55px; }
+.evan-gallery-head h2 { font-size: clamp(58px, 6vw, 100px); }
+.evan-gallery-head h2 em { color: var(--orange); }
+.evan-gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.evan-gallery-card { min-height: 300px; aspect-ratio: 3 / 4; margin: 0; position: relative; overflow: hidden; background: #ded8cf; }
+.evan-gallery-card:first-child { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; min-height: 640px; }
+.evan-gallery-card img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; filter: saturate(.78) contrast(1.05) brightness(.96); transition: transform .7s cubic-bezier(.2,.75,.2,1), filter .4s ease; }
+.evan-gallery-card:first-child img { object-position: center 42%; }
+.evan-gallery-card:hover img { transform: scale(1.025); filter: saturate(.9) contrast(1.04) brightness(.99); }
+.evan-gallery-card::after { content: ""; position: absolute; inset: 45% 0 0; background: linear-gradient(180deg, transparent, rgba(0,0,0,.66)); pointer-events: none; }
+.evan-gallery-card figcaption { position: absolute; z-index: 2; left: 18px; right: 18px; bottom: 16px; display: flex; align-items: center; gap: 10px; margin: 0; color: white; font-size: 12px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.evan-gallery-card figcaption span { color: #ddd7cd; font-size: 9px; }
+
 .faq { display: grid; grid-template-columns: 1fr 1.35fr; gap: 9vw; padding-top: 150px; padding-bottom: 150px; }
 .faq h2 { margin-top: 50px; font-size: clamp(56px, 6vw, 100px); }
 .faq-list { border-top: 1px solid var(--ink); }
@@ -244,6 +258,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
   .coach-section { min-height: auto; }
   .coach-shape { min-height: 520px; }
   .coach-copy { padding: 90px max(32px, calc((100vw - 700px)/2)); }
+  .evan-gallery { padding-top: 100px; padding-bottom: 100px; }
+  .evan-gallery-head { display: block; margin-bottom: 48px; }
+  .evan-gallery-head > div:nth-child(2) { margin-top: 40px; }
+  .evan-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .evan-gallery-card:first-child { min-height: 540px; }
   .consult-intro { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.2); }
   .faq-list { margin-top: 55px; }
 }
@@ -278,6 +297,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
   .manifesto, .process, .faq { padding-top: 78px; padding-bottom: 78px; }
   .results { padding: 78px 0; }
   .results-head { margin-bottom: 38px; }
+  .evan-gallery { padding-top: 78px; padding-bottom: 78px; }
+  .evan-gallery-grid { gap: 8px; }
+  .evan-gallery-card { min-height: 220px; }
+  .evan-gallery-card:first-child { min-height: 430px; }
   .results-grid, .results-media, .quote-stack { gap: 8px; }
   .testimonial-card { padding: 30px 24px; }
   .testimonial-card blockquote { margin: 24px 0 30px; font-size: 18px; }

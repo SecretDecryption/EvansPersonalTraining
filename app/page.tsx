@@ -244,6 +244,38 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="evan-gallery section-shell" aria-labelledby="evan-gallery-title">
+          <div className="evan-gallery-head">
+            <div className="section-number">/ 06 — THE COACH</div>
+            <div>
+              <p className="kicker">Built through the work.</p>
+              <h2 id="evan-gallery-title">Meet Evan<br /><em>in motion.</em></h2>
+            </div>
+          </div>
+          <div className="evan-gallery-grid">
+            <figure className="evan-gallery-card">
+              <img src="/evan-portrait-7253.jpg" alt="Evan Bailey posing in the gym" />
+              <figcaption><span>01</span> Evan Bailey</figcaption>
+            </figure>
+            <figure className="evan-gallery-card">
+              <img src="/evan-portrait-7252.jpg" alt="Evan Bailey practicing a back pose" />
+              <figcaption><span>02</span> Discipline</figcaption>
+            </figure>
+            <figure className="evan-gallery-card">
+              <img src="/evan-portrait-7251.jpg" alt="Evan Bailey stretching through a pose" />
+              <figcaption><span>03</span> Consistency</figcaption>
+            </figure>
+            <figure className="evan-gallery-card">
+              <img src="/evan-portrait-7250.jpg" alt="Evan Bailey checking his form in the mirror" />
+              <figcaption><span>04</span> Form</figcaption>
+            </figure>
+            <figure className="evan-gallery-card">
+              <img src="/evan-portrait-7247.jpg" alt="Evan Bailey standing ready to train" />
+              <figcaption><span>05</span> Ready</figcaption>
+            </figure>
+          </div>
+        </section>
+
         <section className="faq section-shell">
           <div>
             <div className="section-number">/ 06 — GOOD TO KNOW</div>
