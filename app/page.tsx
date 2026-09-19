@@ -172,6 +172,24 @@ export default function Home() {
                 </video>
                 <figcaption><span>04</span> Progress</figcaption>
               </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/training-row-client-poster.jpg" aria-label="Client completing a seated row exercise">
+                  <source src="/training-row-client.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>05</span> Technique</figcaption>
+              </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/evan-pulldown-7206-poster.jpg" aria-label="Evan demonstrating a controlled cable pulldown">
+                  <source src="/evan-pulldown-7206.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>06</span> Control</figcaption>
+              </figure>
+              <figure className="result-media">
+                <video autoPlay muted loop playsInline preload="metadata" poster="/evan-pulldown-7204-poster.jpg" aria-label="Evan performing a cable pulldown in the gym">
+                  <source src="/evan-pulldown-7204.mp4" type="video/mp4" />
+                </video>
+                <figcaption><span>07</span> Strength</figcaption>
+              </figure>
             </div>
 
             <div className="quote-stack">
